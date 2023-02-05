@@ -59,6 +59,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+Sorts of images:
+
+- decorative
+- functional > describes the function of the link, not the contents of the image. Example of a logo link “Return to home page"
+- informative > These kinds of images are useful for saving space, conveying emotions and thoughts, and providing visual instructions (like an assembly diagram for furniture). Example illustration of a phone “Phone number”
+
+The Art of Alt Attributes:
+
+https://accessible360.com/accessible360-blog/2020-11-10-the-art-of-alt-attributes/
+
 If an image provides no additional information, it is likely decorative and should be given an empty alt attribute. An empty alt attribute is different from no alt attribute at all. When no alt attribute is provided, screen readers will often try to read out the full filename of the image, which no user would enjoy!
 
 To see how you can add code snippets, see below:
