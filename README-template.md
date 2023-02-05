@@ -57,11 +57,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+If an image provides no additional information, it is likely decorative and should be given an empty alt attribute. An empty alt attribute is different from no alt attribute at all. When no alt attribute is provided, screen readers will often try to read out the full filename of the image, which no user would enjoy!
 
 To see how you can add code snippets, see below:
 
