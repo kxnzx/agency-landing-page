@@ -77,7 +77,11 @@ body {
   font-size: $fs_bodyCopy;
   background-color: $white;
   display: grid;
-  grid-template-rows: 800px repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 535px 3960px 750px);
+  @media screen and (min-width: $xl_tablet) {
+    grid-template-rows: repeat(3, 800px 2580px 900px);
+  }
 }
 
 h1,
@@ -115,18 +119,35 @@ header {
 main {
   border: solid red 2px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 600px);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 310px 440px 310px 440px 600px 600px 1260px);
+  @media screen and (min-width: $xl_tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 600px);
+  }
 }
 
 .testimonials {
-  // This item will start on row 2 and column 1, and span 1 rows and 2 columns:
-  grid-area: 4 / 1 / span 1 / span 2;
+  @media screen and (min-width: $xl_tablet) {
+    // This item will start on row 2 and column 1, and span 1 rows and 2 columns:
+    grid-area: 4 / 1 / span 1 / span 2;
+  }
 }
 
 footer {
   border: solid green 2px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 795px repeat(2, 1fr);
+  grid-template-rows: repeat(2, 375px);
+  @media screen and (min-width: $xl_tablet) {
+    grid-template-rows: repeat(2, 450px);
+  }
+}
+
+.footercontent {
+  border: solid 2px orangered;
+}
+
+.attribution {
+  border: solid purple 2px;
 }
