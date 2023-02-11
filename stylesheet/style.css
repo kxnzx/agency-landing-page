@@ -1,6 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 62.5% of 16px browser font size is 10px */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+img {
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/*
+a {
+  text-decoration: none;
+  &:visited,
+  :focus {
+    text-decoration: none;
+    color: $dark_grayish_blue;
+  }
+  &:hover {
+    color: $soft_red;
+  }
+}
+*/
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.8rem;
+  background-color: hsl(0deg, 0%, 100%);
+  display: grid;
+  grid-template-rows: 800px repeat(3, 1fr);
+}
+
+h1,
+h2,
+h3,
+a,
+figcaption {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212deg, 27%, 19%);
+}
+
 header,
 section {
-  border: dotted gray 2px;
+  border: solid gray 2px;
   margin-bottom: 5px;
   width: 100%;
 }
@@ -8,13 +68,33 @@ section {
 .egg,
 .cup {
   width: 100%;
-  height: 200px;
-  border: solid black 2px;
+  border: solid pink 2px;
   margin-bottom: 5px;
 }
 
 .footerbanner {
   width: 100%;
-  height: 100px;
   border: solid black 2px;
+}
+
+header {
+  border-color: blue;
+}
+
+main {
+  border: solid red 2px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 600px);
+}
+
+.testimonials {
+  grid-area: 4/1/span 1/span 2;
+}
+
+footer {
+  border: solid green 2px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 795px repeat(2, 1fr);
 }/*# sourceMappingURL=style.css.map */

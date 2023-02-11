@@ -53,11 +53,45 @@ body {
 img {
   display: block;
 }
+
+ul,
+ol {
+  list-style: none;
+}
+/*
+a {
+  text-decoration: none;
+  &:visited,
+  :focus {
+    text-decoration: none;
+    color: $dark_grayish_blue;
+  }
+  &:hover {
+    color: $soft_red;
+  }
+}
+*/
 // STYLES
+body {
+  font-family: $ff_barlow;
+  font-size: $fs_bodyCopy;
+  background-color: $white;
+  display: grid;
+  grid-template-rows: 800px repeat(3, 1fr);
+}
+
+h1,
+h2,
+h3,
+a,
+figcaption {
+  font-family: $ff_fraunces;
+  color: $very_dark_desaturated_blue;
+}
 
 header,
 section {
-  border: dotted gray 2px;
+  border: solid gray 2px;
   margin-bottom: 5px;
   width: 100%;
 }
@@ -65,13 +99,34 @@ section {
 .egg,
 .cup {
   width: 100%;
-  height: 200px;
-  border: solid black 2px;
+  border: solid pink 2px;
   margin-bottom: 5px;
 }
 
 .footerbanner {
   width: 100%;
-  height: 100px;
   border: solid black 2px;
+}
+
+header {
+  border-color: blue;
+}
+
+main {
+  border: solid red 2px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 600px);
+}
+
+.testimonials {
+  // This item will start on row 2 and column 1, and span 1 rows and 2 columns:
+  grid-area: 4 / 1 / span 1 / span 2;
+}
+
+footer {
+  border: solid green 2px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 795px repeat(2, 1fr);
 }
