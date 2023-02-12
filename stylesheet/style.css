@@ -64,29 +64,19 @@ figcaption {
   color: hsl(212deg, 27%, 19%);
 }
 
-header,
-section {
-  border: solid gray 2px;
-  width: 100%;
-}
-
-.egg,
-.cup {
-  width: 100%;
-  border: solid pink 2px;
-}
-
-.footerbanner {
-  width: 100%;
-  border: solid black 2px;
-}
-
 header {
-  border-color: blue;
+  background-image: url(/images/mobile/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (min-width: 960px) {
+  header {
+    background-image: url(/images/desktop/image-header.jpg);
+  }
 }
 
 main {
-  border: solid red 2px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(7, 310px 440px 310px 440px 600px 600px 1260px);
@@ -98,9 +88,56 @@ main {
   }
 }
 
-.testimonials {
-  border: solid orange 2px;
+.egg {
+  background-image: url(/images/mobile/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+@media screen and (min-width: 960px) {
+  .egg {
+    background-image: url(/images/desktop/image-transform.jpg);
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+}
+
+.cup {
+  background-image: url(/images/mobile/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (min-width: 960px) {
+  .cup {
+    background-image: url(/images/desktop/image-stand-out.jpg);
+  }
+}
+
+.cherries {
+  background-image: url(/images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media screen and (min-width: 960px) {
+  .cherries {
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+  }
+}
+
+.orange {
+  background-image: url(/images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media screen and (min-width: 960px) {
+  .orange {
+    background-image: url(/images/desktop/image-photography.jpg);
+  }
+}
+
 @media screen and (min-width: 960px) {
   .testimonials {
     grid-area: 4/1/span 2/span 2;
@@ -108,7 +145,6 @@ main {
 }
 
 footer {
-  border: solid green 2px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 375px);
@@ -119,10 +155,23 @@ footer {
   }
 }
 
+.footerbanner {
+  background-image: url(/images/mobile/image-gallery-milkbottles.jpg), url(/images/mobile/image-gallery-orange.jpg), url(/images/mobile/image-gallery-cone.jpg), url(/images/mobile/image-gallery-sugar-cubes.jpg);
+  background-repeat: no-repeat;
+  background-position: left top, right top, left bottom, right bottom;
+  background-size: 18.6rem;
+}
+@media screen and (min-width: 960px) {
+  .footerbanner {
+    background-image: url(/images/desktop/image-gallery-milkbottles.jpg), url(/images/desktop/image-gallery-orange.jpg), url(/images/desktop/image-gallery-cone.jpg), url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: 36rem;
+  }
+}
+
 .footercontent {
-  border: solid 2px orangered;
+  border: solid 2px darkgrey;
 }
 
 .attribution {
-  border: solid purple 2px;
+  border: solid darkgrey 2px;
 }/*# sourceMappingURL=style.css.map */
