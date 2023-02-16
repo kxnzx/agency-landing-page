@@ -103,6 +103,19 @@ header {
   }
 }
 
+.logo {
+  padding: 3rem 0 0 2rem;
+}
+
+h1 {
+  color: $white;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -113,11 +126,14 @@ main {
   }
 }
 
-.egg {
-  background-image: url(/images/mobile/image-transform.jpg);
+.image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.egg {
+  background-image: url(/images/mobile/image-transform.jpg);
   @media screen and (min-width: $xl_tablet) {
     background-image: url(/images/desktop/image-transform.jpg);
     grid-column: 2 / 3;
@@ -127,9 +143,6 @@ main {
 
 .cup {
   background-image: url(/images/mobile/image-stand-out.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   @media screen and (min-width: $xl_tablet) {
     background-image: url(/images/desktop/image-stand-out.jpg);
   }
@@ -137,8 +150,6 @@ main {
 
 .cherries {
   background-image: url(/images/mobile/image-graphic-design.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center top;
   @media screen and (min-width: $xl_tablet) {
     background-image: url(/images/desktop/image-graphic-design.jpg);
@@ -147,8 +158,6 @@ main {
 
 .orange {
   background-image: url(/images/mobile/image-photography.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center top;
   @media screen and (min-width: $xl_tablet) {
     background-image: url(/images/desktop/image-photography.jpg);
