@@ -172,20 +172,46 @@ footer {
 }
 
 .footerbanner {
-  background-image: url(/images/mobile/image-gallery-milkbottles.jpg),
-    url(/images/mobile/image-gallery-orange.jpg),
-    url(/images/mobile/image-gallery-cone.jpg),
-    url(/images/mobile/image-gallery-sugar-cubes.jpg);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  @media screen and (min-width: $mobile) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+// Footerbanner Gallery
+.gallery_image {
   background-repeat: no-repeat;
-  background-position: left top, right top, left bottom, right bottom;
-  background-size: 18.6rem;
-  @media screen and (min-width: $xl_tablet) {
-    background-image: url(/images/desktop/image-gallery-milkbottles.jpg),
-      url(/images/desktop/image-gallery-orange.jpg),
-      url(/images/desktop/image-gallery-cone.jpg),
-      url(/images/desktop/image-gallery-sugarcubes.jpg);
-    //background-position: left, left, right, right;
-    background-size: 36rem;
+  background-size: cover;
+  background-position: center;
+}
+.milkbottles {
+  background-image: url(/images/mobile/image-gallery-milkbottles.jpg);
+  @media screen and (min-width: $mobile) {
+    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+  }
+}
+
+.oneorange {
+  background-image: url(/images/mobile/image-gallery-orange.jpg);
+  @media screen and (min-width: $mobile) {
+    background-image: url(/images/desktop/image-gallery-orange.jpg);
+  }
+}
+
+.cone {
+  background-image: url(/images/mobile/image-gallery-cone.jpg);
+  @media screen and (min-width: $mobile) {
+    background-image: url(/images/desktop/image-gallery-cone.jpg);
+  }
+}
+
+.sugarcubes {
+  background-image: url(/images/mobile/image-gallery-sugar-cubes.jpg);
+  @media screen and (min-width: $mobile) {
+    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
   }
 }
 
