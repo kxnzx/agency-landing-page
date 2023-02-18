@@ -58,6 +58,10 @@ ul,
 ol {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+}
 /*
 a {
   text-decoration: none;
@@ -71,6 +75,11 @@ a {
   }
 }
 */
+
+button {
+  background: none;
+  border: none;
+}
 // STYLES
 body {
   font-family: $ff_barlow;
@@ -104,7 +113,7 @@ header {
 }
 
 .logo {
-  padding: 3rem 0 0 2rem;
+  margin: 3rem 0 0 2rem;
 }
 
 h1 {
@@ -114,6 +123,41 @@ h1 {
   text-align: center;
   max-width: 30rem;
   margin: auto;
+  margin-top: 9.5rem;
+}
+
+.menu {
+  //display: none; /* Toggle this on and off in JS */
+  background-color: white;
+  width: 33rem;
+  padding: 3rem;
+  text-align: center;
+  position: fixed;
+  right: 2.3rem;
+  top: 10.5rem;
+  :after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    border-bottom: 20px solid white;
+    border-left: 20px solid transparent;
+  }
+  @media screen and (min-width: $xl_tablet) {
+    display: block;
+    width: 47.5rem;
+    flex-direction: row;
+  }
+}
+
+button {
+  display: inline-block;
+  position: fixed;
+  right: 2.3rem;
+  top: 3rem;
+  @media screen and (min-width: $xl_tablet) {
+    display: none;
+  }
 }
 
 main {
