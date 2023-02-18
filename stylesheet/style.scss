@@ -132,7 +132,7 @@ h1 {
     grid-area: 2 / 1 / span 3 / span 2;
     margin-top: 0;
     max-width: 100%;
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 }
 
@@ -153,6 +153,10 @@ h1 {
     border-bottom: 20px solid white;
     border-left: 20px solid transparent;
   }
+  a {
+    color: $dark_grayish_blue;
+    font-family: $ff_barlow;
+  }
   @media screen and (min-width: $xl_tablet) {
     width: 100%;
     background: none;
@@ -163,6 +167,9 @@ h1 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      a {
+        color: $white;
+      }
     }
   }
 }
