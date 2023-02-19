@@ -213,6 +213,7 @@ button {
   position: fixed;
   right: 2.3rem;
   top: 3rem;
+  cursor: pointer;
   @media screen and (min-width: $xl_tablet) {
     display: none;
   }
