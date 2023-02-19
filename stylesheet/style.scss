@@ -173,6 +173,7 @@ h1 {
 }
 
 .menu {
+  z-index: 1;
   display: none; /* Toggle this on and off in JS */
   background-color: white;
   width: 33rem;
@@ -220,6 +221,7 @@ h1 {
       color: $white;
     }
   }
+
   .contact {
     background: $yellow;
     padding: 1.6rem 2.5rem;
@@ -240,6 +242,10 @@ h1 {
       background: $white;
     }
   }
+}
+
+.showMenu {
+  display: block; /* Toggle this on and off in JS */
 }
 
 button {

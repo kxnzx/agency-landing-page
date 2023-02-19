@@ -150,6 +150,7 @@ h1 {
   }
 }
 .menu {
+  z-index: 1;
   display: none; /* Toggle this on and off in JS */
   background-color: white;
   width: 33rem;
@@ -229,6 +230,10 @@ h1 {
   .menu .contact {
     background: hsl(0deg, 0%, 100%);
   }
+}
+
+.showMenu {
+  display: block; /* Toggle this on and off in JS */
 }
 
 button {
