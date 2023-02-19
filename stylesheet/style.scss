@@ -139,8 +139,18 @@ h1 {
   }
 }
 
+.scroll_down_arrow {
+  margin: auto;
+  margin-top: 5.5rem;
+  @media screen and (min-width: $xl_tablet) {
+    // This item will start on row 2 and column 1,and span 2 rows and 2 columns:
+    grid-area: 3 / 1 / span 2 / span 2;
+    margin-top: -3.5rem;
+  }
+}
+
 .menu {
-  //display: none; /* Toggle this on and off in JS */
+  display: none; /* Toggle this on and off in JS */
   background-color: white;
   width: 33rem;
   padding: 5rem;
@@ -157,6 +167,7 @@ h1 {
     border-left: 20px solid transparent;
   }
   @media screen and (min-width: $xl_tablet) {
+    display: block;
     width: 100%;
     background: none;
     position: relative;

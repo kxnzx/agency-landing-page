@@ -110,7 +110,19 @@ h1 {
   }
 }
 
+.scroll_down_arrow {
+  margin: auto;
+  margin-top: 5.5rem;
+}
+@media screen and (min-width: 960px) {
+  .scroll_down_arrow {
+    grid-area: 3/1/span 2/span 2;
+    margin-top: -3.5rem;
+  }
+}
+
 .menu {
+  display: none; /* Toggle this on and off in JS */
   background-color: white;
   width: 33rem;
   padding: 5rem;
@@ -129,6 +141,7 @@ h1 {
 }
 @media screen and (min-width: 960px) {
   .menu {
+    display: block;
     width: 100%;
     background: none;
     position: relative;
