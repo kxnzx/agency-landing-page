@@ -113,11 +113,11 @@ h1 {
 .menu {
   background-color: white;
   width: 33rem;
-  padding: 3rem;
+  padding: 5rem;
   text-align: center;
   position: fixed;
   right: 2.3rem;
-  top: 10.5rem;
+  top: 9.5rem;
 }
 .menu :after {
   content: "";
@@ -127,10 +127,6 @@ h1 {
   border-bottom: 20px solid white;
   border-left: 20px solid transparent;
 }
-.menu a {
-  color: hsl(232deg, 10%, 55%);
-  font-family: "Barlow", sans-serif;
-}
 @media screen and (min-width: 960px) {
   .menu {
     width: 100%;
@@ -139,13 +135,58 @@ h1 {
     right: 0;
     top: 0;
   }
+}
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+@media screen and (min-width: 960px) {
   .menu ul {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .menu ul a {
+}
+.menu a {
+  color: hsl(232deg, 10%, 55%);
+  font-family: "Barlow", sans-serif;
+  cursor: pointer;
+}
+.menu a:hover {
+  color: hsl(210deg, 4%, 67%);
+}
+@media screen and (min-width: 960px) {
+  .menu a:hover {
+    color: hsl(51deg, 100%, 49%);
+  }
+}
+@media screen and (min-width: 960px) {
+  .menu a {
     color: hsl(0deg, 0%, 100%);
+  }
+}
+.menu .contact {
+  background: hsl(51deg, 100%, 49%);
+  padding: 1.6rem 2.5rem;
+  border-radius: 30px;
+  color: hsl(212deg, 27%, 19%);
+  text-transform: uppercase;
+  font-family: "Fraunces", sans-serif;
+  font-size: 1.6rem;
+}
+.menu .contact:hover {
+  background-color: #ffeb7a;
+  color: hsl(232deg, 10%, 55%);
+}
+@media screen and (min-width: 960px) {
+  .menu .contact:hover {
+    background-color: #8ad8ff;
+    color: hsl(0deg, 0%, 100%);
+  }
+}
+@media screen and (min-width: 960px) {
+  .menu .contact {
+    background: hsl(0deg, 0%, 100%);
   }
 }
 
