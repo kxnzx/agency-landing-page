@@ -287,6 +287,78 @@ main {
   }
 }
 
+.brand,
+.audience {
+  margin: 0 auto;
+  text-align: center;
+  @media screen and (min-width: $xl_tablet) {
+    text-align: left;
+    margin: auto;
+  }
+  h2 {
+    padding-top: 7rem;
+    font-weight: $fw_black;
+    max-width: 24rem;
+    margin: 0 auto;
+    @media screen and (min-width: $mobile) {
+      font-size: 3.5rem;
+      max-width: 38rem;
+    }
+    @media screen and (min-width: $xl_tablet) {
+      padding-top: 0;
+      margin: 0;
+    }
+  }
+  p {
+    padding: 4rem 0 3.8rem 0;
+    font-size: 1.6rem;
+    color: $dark_grayish_blue;
+    line-height: 1.6;
+    max-width: 28.5rem;
+    margin: 0 auto;
+    @media screen and (min-width: $mobile) {
+      font-size: 2rem;
+      max-width: 50rem;
+    }
+  }
+  a {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: $fw_bold;
+    @media screen and (min-width: $xl_tablet) {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.cherries,
+.orange {
+  text-align: center;
+  h2 {
+    padding-top: 40rem;
+    font-size: 2.25rem;
+    font-weight: $fw_bold;
+    @media screen and (min-width: $mobile) {
+      font-size: 3rem;
+    }
+  }
+  p {
+    max-width: 34rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding-top: 3rem;
+    line-height: 1.6;
+  }
+}
+
+.cherries {
+  color: $dark_desaturated_cyan;
+}
+
+.orange {
+  color: $dark_blue;
+}
+
 .cup {
   background-image: url(/images/mobile/image-stand-out.jpg);
   @media screen and (min-width: $xl_tablet) {

@@ -283,6 +283,101 @@ main {
   }
 }
 
+.brand,
+.audience {
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (min-width: 960px) {
+  .brand,
+.audience {
+    text-align: left;
+    margin: auto;
+  }
+}
+.brand h2,
+.audience h2 {
+  padding-top: 7rem;
+  font-weight: 900;
+  max-width: 24rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .brand h2,
+.audience h2 {
+    font-size: 3.5rem;
+    max-width: 38rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .brand h2,
+.audience h2 {
+    padding-top: 0;
+    margin: 0;
+  }
+}
+.brand p,
+.audience p {
+  padding: 4rem 0 3.8rem 0;
+  font-size: 1.6rem;
+  color: hsl(232deg, 10%, 55%);
+  line-height: 1.6;
+  max-width: 28.5rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .brand p,
+.audience p {
+    font-size: 2rem;
+    max-width: 50rem;
+  }
+}
+.brand a,
+.audience a {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 960px) {
+  .brand a,
+.audience a {
+    font-size: 1.6rem;
+  }
+}
+
+.cherries,
+.orange {
+  text-align: center;
+}
+.cherries h2,
+.orange h2 {
+  padding-top: 40rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 640px) {
+  .cherries h2,
+.orange h2 {
+    font-size: 3rem;
+  }
+}
+.cherries p,
+.orange p {
+  max-width: 34rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  padding-top: 3rem;
+  line-height: 1.6;
+}
+
+.cherries {
+  color: hsl(167deg, 40%, 24%);
+}
+
+.orange {
+  color: hsl(198deg, 62%, 26%);
+}
+
 .cup {
   background-image: url(/images/mobile/image-stand-out.jpg);
 }
