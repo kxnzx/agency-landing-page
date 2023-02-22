@@ -32,19 +32,6 @@ a {
   text-decoration: none;
 }
 
-/*
-a {
-  text-decoration: none;
-  &:visited,
-  :focus {
-    text-decoration: none;
-    color: $dark_grayish_blue;
-  }
-  &:hover {
-    color: $soft_red;
-  }
-}
-*/
 button {
   background: none;
   border: none;
