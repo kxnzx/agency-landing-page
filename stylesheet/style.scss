@@ -4,8 +4,10 @@
 // Colors
 // primary colors
 $soft_red: hsl(7, 99%, 70%);
+$ultra_light_red: lighten($soft_red, 20%);
 $yellow: hsl(51, 100%, 49%);
 $light_yellow: lighten($yellow, 25%);
+$ultra_light_yellow: lighten($yellow, 35%);
 $light_bleu: hsl(200, 100%, 62%);
 $hover_light_blue: lighten($light_bleu, 15%);
 $dark_desaturated_cyan: hsl(167, 40%, 24%); // graphic design text
@@ -374,6 +376,33 @@ main {
       font-size: 1.6rem;
     }
   }
+}
+
+// Text Underline Marker Style
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding: 0 0.5em 0.6em 0.5em;
+  border-radius: 5px;
+}
+
+.yellow {
+  background-color: $ultra_light_yellow;
+  &:hover {
+    background-color: pink;
+  }
+}
+
+.red {
+  background-color: $ultra_light_red;
+}
+
+.yellow_underline:hover mark {
+  background-color: $yellow;
+}
+
+.red_underline:hover mark {
+  background-color: $soft_red;
 }
 
 .testimonials {

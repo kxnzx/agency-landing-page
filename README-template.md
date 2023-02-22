@@ -59,6 +59,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+I learned aboud the mark tag. The <mark> tag defines text that should be marked or highlighted. Learned how to combine it with an a tag with hover effect.
+
 Sorts of images:
 
 - decorative

@@ -401,6 +401,32 @@ main {
   }
 }
 
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding: 0 0.5em 0.6em 0.5em;
+  border-radius: 5px;
+}
+
+.yellow {
+  background-color: #fff3ad;
+}
+.yellow:hover {
+  background-color: pink;
+}
+
+.red {
+  background-color: #ffd2cc;
+}
+
+.yellow_underline:hover mark {
+  background-color: hsl(51deg, 100%, 49%);
+}
+
+.red_underline:hover mark {
+  background-color: hsl(7deg, 99%, 70%);
+}
+
 .testimonials {
   text-align: center;
 }
