@@ -577,6 +577,9 @@ footer {
   font-family: "Barlow", sans-serif;
   color: hsl(168deg, 34%, 41%);
 }
+.footercontent > section > ul li a:hover {
+  color: hsl(7deg, 99%, 70%);
+}
 
 .footercontent > section > .social_media {
   gap: 2rem;

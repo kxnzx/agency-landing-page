@@ -537,6 +537,9 @@ footer {
     a {
       font-family: $ff_barlow;
       color: $dark_moderate_cyan;
+      &:hover {
+        color: $soft_red;
+      }
     }
   }
 }
