@@ -62,12 +62,12 @@ Alt attributes (textual descriptions of images added to the HTML code that a scr
 
 - Decorative Image
   - An image is decorative when it doesn't provide any information or context for the user to understand the content of the page.
-  - The only function of an decorative image is to enhance the appearance of the page, therefor should be given an empty alt attribute.
+  - The only function of a decorative image is to enhance the appearance of the page, therefor should be given an empty alt attribute.
   - Keep in mind that an empty alt attribute is different from no alt attribute at all! When no alt attribute is provided, screen readers will read out the full filename of the image.
 - Functional Image
   - An image of a logo wrapped inside a link tag is an example of a functional image, because it functions as a link to return to the homepage. In this case you can use the alternate text "Return to homepage".
 - Informative Image
-  - These kinds of images provide visual instructions and are useful for saving space. They can also convey emotions and thoughts. An example of a visual instruction is an assembly diagram for furniture and an illustration of a phone number. In this case you can use the alternate text "assembly diagram for furniture" and “Phone number”.
+  - These kinds of images provide visual instructions and are useful for saving space. They can also convey emotions and thoughts. An example of an image with a visual instruction is an assembly diagram for furniture or an illustration of a phone number. In this case you can use the alternate text "assembly diagram for furniture" and “Phone number”.
 
 I also learned about the mark tag. This tag defines text that should be marked or highlighted. I have used them for the "Learn More" links to give them the style of a highlight marker:
 
