@@ -553,10 +553,39 @@ footer {
   }
 }
 
+footer {
+  background-color: hsl(165deg, 45%, 74%);
+}
+
 .footercontent {
-  border: solid 2px darkgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.footercontent > section > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.footercontent > section > ul li {
+  align-self: center;
+}
+.footercontent > section > ul li a {
+  font-family: "Barlow", sans-serif;
+  color: hsl(168deg, 34%, 41%);
+}
+
+.footercontent > section > .social_media {
+  gap: 2rem;
 }
 
 .attribution {
-  border: solid darkgrey 2px;
+  font-size: 1.6rem;
+  color: hsl(168deg, 34%, 41%);
+}
+.attribution a {
+  color: hsl(7deg, 99%, 70%);
 }/*# sourceMappingURL=style.css.map */

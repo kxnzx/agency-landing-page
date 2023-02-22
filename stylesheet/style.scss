@@ -13,6 +13,7 @@ $hover_light_blue: lighten($light_bleu, 15%);
 $dark_desaturated_cyan: hsl(167, 40%, 24%); // graphic design text
 $dark_blue: hsl(198, 62%, 26%); // photography text
 $dark_moderate_cyan: hsl(168, 34%, 41%); // footer
+$mint_green: hsl(165, 45%, 74%);
 // neutral colors
 $very_dark_desaturated_blue: hsl(212, 27%, 19%);
 $very_dark_grayish_blue: hsl(213, 9%, 39%);
@@ -515,10 +516,39 @@ footer {
   }
 }
 
+footer {
+  background-color: $mint_green;
+}
+
 .footercontent {
-  border: solid 2px darkgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.footercontent > section > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  li {
+    align-self: center;
+    a {
+      font-family: $ff_barlow;
+      color: $dark_moderate_cyan;
+    }
+  }
+}
+
+.footercontent > section > .social_media {
+  gap: 2rem;
 }
 
 .attribution {
-  border: solid darkgrey 2px;
+  font-size: 1.6rem;
+  color: $dark_moderate_cyan;
+  a {
+    color: $soft_red;
+  }
 }
