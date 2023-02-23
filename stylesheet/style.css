@@ -65,6 +65,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100%;
+  width: 100%;
 }
 @media screen and (min-width: 960px) {
   header {
