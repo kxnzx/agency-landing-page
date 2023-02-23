@@ -61,7 +61,7 @@ figcaption {
 }
 
 header {
-  background-image: url(/images/mobile/image-header.jpg);
+  background-image: url(../images/mobile/image-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -260,22 +260,22 @@ main {
 }
 
 .egg {
-  background-image: url(/images/mobile/image-transform.jpg);
+  background-image: url(../images/mobile/image-transform.jpg);
 }
 @media screen and (min-width: 960px) {
   .egg {
-    background-image: url(/images/desktop/image-transform.jpg);
+    background-image: url(../images/desktop/image-transform.jpg);
     grid-column: 2/3;
     grid-row: 1;
   }
 }
 
 .cup {
-  background-image: url(/images/mobile/image-stand-out.jpg);
+  background-image: url(../images/mobile/image-stand-out.jpg);
 }
 @media screen and (min-width: 960px) {
   .cup {
-    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-image: url(../images/desktop/image-stand-out.jpg);
   }
 }
 
@@ -306,23 +306,23 @@ main {
 
 .cherries {
   color: hsl(167deg, 40%, 24%);
-  background-image: url(/images/mobile/image-graphic-design.jpg);
+  background-image: url(../images/mobile/image-graphic-design.jpg);
   background-position: center top;
 }
 @media screen and (min-width: 960px) {
   .cherries {
-    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-image: url(../images/desktop/image-graphic-design.jpg);
   }
 }
 
 .orange {
   color: hsl(198deg, 62%, 26%);
-  background-image: url(/images/mobile/image-photography.jpg);
+  background-image: url(../images/mobile/image-photography.jpg);
   background-position: center top;
 }
 @media screen and (min-width: 960px) {
   .orange {
-    background-image: url(/images/desktop/image-photography.jpg);
+    background-image: url(../images/desktop/image-photography.jpg);
   }
 }
 
@@ -505,38 +505,38 @@ footer {
 }
 
 .milkbottles {
-  background-image: url(/images/mobile/image-gallery-milkbottles.jpg);
+  background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
 }
 @media screen and (min-width: 640px) {
   .milkbottles {
-    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
   }
 }
 
 .oneorange {
-  background-image: url(/images/mobile/image-gallery-orange.jpg);
+  background-image: url(../images/mobile/image-gallery-orange.jpg);
 }
 @media screen and (min-width: 640px) {
   .oneorange {
-    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
   }
 }
 
 .cone {
-  background-image: url(/images/mobile/image-gallery-cone.jpg);
+  background-image: url(../images/mobile/image-gallery-cone.jpg);
 }
 @media screen and (min-width: 640px) {
   .cone {
-    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
   }
 }
 
 .sugarcubes {
-  background-image: url(/images/mobile/image-gallery-sugar-cubes.jpg);
+  background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
 }
 @media screen and (min-width: 640px) {
   .sugarcubes {
-    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
   }
 }
 
