@@ -67,7 +67,7 @@ Alt attributes (textual descriptions of images added to the HTML code that a scr
 - Functional Image
   - An image of a logo wrapped inside a link tag is an example of a functional image, because it functions as a link to return to the homepage. In this case you can use the alternate text "Return to homepage".
 - Informative Image
-  - These kinds of images provide visual instructions and are useful for saving space. They can also convey emotions and thoughts. An example of an image with a visual instruction is an assembly diagram for furniture or an illustration of a phone number. In this case you can use the alternate text "assembly diagram for furniture" and “Phone number”.
+  - These kind of images provide visual instructions and are useful for saving space. They can also convey emotions and thoughts. An example of an image with a visual instruction is an assembly diagram for furniture or an illustration of a phone number. In this case you can use the alternate text "assembly diagram for furniture" and “Phone number”.
 
 I also learned about the mark tag. This tag defines text that should be marked or highlighted. I have used them for the "Learn More" links to give them the style of a highlight marker:
 
