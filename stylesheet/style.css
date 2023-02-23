@@ -68,7 +68,7 @@ header {
 }
 @media screen and (min-width: 960px) {
   header {
-    background-image: url(./images/desktop/image-header.JPG);
+    background-image: url(images/desktop/image-header.jpg);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
