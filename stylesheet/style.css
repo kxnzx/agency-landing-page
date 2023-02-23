@@ -61,7 +61,7 @@ figcaption {
 }
 
 header {
-  background-image: url(/images/mobile/image-header.JPG);
+  background-image: url(/images/mobile/image-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -225,7 +225,7 @@ h1 {
 }
 
 .showMenu {
-  display: block; /* Toggle this on and off in JS */
+  display: block; /* Toggle on and off in JS */
 }
 
 button {
