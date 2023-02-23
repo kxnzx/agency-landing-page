@@ -92,13 +92,14 @@ h1 {
   max-width: 30rem;
   margin: auto;
   margin-top: 9.5rem;
+  font-weight: 900;
 }
 @media screen and (min-width: 960px) {
   h1 {
     grid-area: 2/1/span 3/span 2;
     margin-top: 0;
     max-width: 100%;
-    font-size: 5rem;
+    font-size: 6rem;
   }
 }
 
